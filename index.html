@@ -1,0 +1,20 @@
+<html>
+<title>Java Script Test</title>
+<head>
+<link rel="stylesheet" href="css.css">
+<form id="colourpicker">
+<input type="text" id="colourchooser" name="Choose the colour you want">
+<input type="button" id="submit" value="Submit" onclick="main()">
+</form>
+<script>
+function main() {
+    var colourOutput = document.getElementById("colourchooser").value;
+	document.body.style.backgroundColor = colourOutput;
+}
+</script>
+<noscript>Sorry, your browser does not support JavaScript!</noscript>
+</head>
+<body>
+
+</body>
+</html>
